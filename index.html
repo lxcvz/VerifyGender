@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div id="container">
+            <div>
+                <p>Ano de nascimento:
+                    <input type="number" id="year" placeholder="Ex: 1999">
+                </p>
+                <p>Sexo:
+                    <label><input type="radio" value="masculino" name="radsex" id="masc" checked>Masculino</label>
+                    <label><input type="radio" value="feminino" name="radsex" id="femi">Feminino</label>
+                    <label><input type="radio" value="Outro" name="radsex" id="other">Outro</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verify()">
+                </p>
+            </div>
+            <div id="text">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Lucas Mateus - Curso em vídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
